@@ -1,0 +1,62 @@
+
+@font-face {
+    font-family: 'LATO-BLACK';
+    src: url('LATO-BLACK.TTF') format('truetype');
+    font-style: normal;
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'LATO-BOLD';
+    src: url('LATO-BOLD.TTF') format('truetype');
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'LATO-MEDIUM';
+    src: url('LATO-MEDIUM.TTF') format('truetype');
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'LATO-REGULAR';
+    src: url('LATO-REGULAR.TTF') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'LATO-THIN';
+    src: url('LATO-THIN.TTF') format('truetype');
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'LATO-LIGHT';
+    src: url('LATO-LIGHT.TTF') format('truetype');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LATO-HEAVY';
+    src: url('LATO-HEAVY.TTF') format('truetype');
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('Merriweather.TTF') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Merriweather-bold';
+    src: url('Merriweather-bold.TTF') format('truetype');
+    font-style: normal;
+    font-weight: bold;
+}
+

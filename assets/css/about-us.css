@@ -1,0 +1,309 @@
+.you-can-choose{
+    margin-top: 65px;
+}
+.you-can-choose__title{
+    position: relative;
+    max-width: 650px;
+}
+.you-can-choose__title h2{
+    font-size: 36px;
+    font-family: 'LATO-BOLD';
+    color: rgb(21, 19, 20);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+    max-width: 245px;
+
+}
+.you-can-choose__title:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 28px;
+    width: 1px;
+    height: 60px;
+    background-color: rgb(215, 215, 215);
+}
+.you-can-choose__info{
+    display: flex;
+    justify-content: flex-end;
+}
+.you-can-choose__box{
+    padding: 30px 20px 30px;
+    display: flex;
+    align-items: flex-start;
+    max-width: 500px;
+    width: 100%;
+    position: relative;
+}
+.you-can-choose__box:first-child:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 18px;
+    width: 1px;
+    height: 150px;
+    background-color: rgb(215, 215, 215);
+}
+.you-can-choose__box:before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    right: 18px;
+    max-width: 429px;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(215, 215, 215);
+}
+.you-can-choose__box + .you-can-choose__box:before{
+    right: 0;
+    max-width: 600px;
+}
+.you-can-choose__box img{
+    width: 75px;
+}
+.you-can-choose__text {
+    max-width: 290px;
+    width: 100%;
+    margin-left: 10px;
+}
+.you-can-choose__text strong{
+    font-size: 18px;
+    font-family: 'LATO-BOLD';
+    color: rgb(85, 85, 85);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+}
+.you-can-choose__text p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'LATO-REGULAR';
+    color: rgb(85, 85, 85);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.you-can-choose__item{
+    display: flex;
+    align-items: self-start;
+    margin-top: 30px;
+}
+.you-can-choose__img{
+    padding: 10px 20px 0 0;
+    max-width: 432px;
+    width: 100%;
+    position: relative;
+}
+.you-can-choose__img:after {
+    content: "";
+    position: absolute;
+    top: -11px;
+    right: 10px;
+    max-width: 403px;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(215, 215, 215);
+}
+.you-can-choose__img:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 10px;
+    width: 1px;
+    height: 170px;
+    background-color: rgb(215, 215, 215);
+}
+
+.you-can-choose__men {
+    max-width: 225px;
+    width: 100%;
+    margin-top: -77px;
+}
+.you-can-choose__item .you-can-choose__text {
+    max-width: 390px;
+}
+.you-can-choose__item  .you-can-choose__box:before {
+    right: 44px;
+}
+
+.upholstered-furniture{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(235, 235, 235);
+    margin: 60px 0 50px;
+    padding: 30px;
+}
+.upholstered-furniture__img{
+    max-width: 540px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(235, 235, 235);
+    box-shadow: 5.5px 9.526px 21px 0px rgba(0, 0, 0, 0.48);
+    margin-bottom: -2px;
+}
+.upholstered-furniture__img img{
+    height: 100%;
+    margin-bottom: -4px;
+}
+.upholstered-furniture__text{
+    margin-left: 25px;
+    max-width: 540px;
+    width: 100%;
+}
+.upholstered-furniture__text p{
+    font-size: 18px;
+    font-family: 'LATO-LIGHT';
+
+    color: rgb(85, 85, 85);
+    line-height: 1.667;
+    text-align: left;
+
+}
+.upholstered-furniture__text strong{
+    margin-top: 15px;
+    display: block;
+    font-size: 18px;
+    font-family: 'LATO-LIGHT';
+    color: rgb(0,0, 0);
+    line-height: 1.667;
+    text-align: left;
+}
+
+
+@media (max-width: 1170px){
+    .you-can-choose__title {
+        max-width: 490px;
+    }
+    .you-can-choose__title h2 {
+        font-size: 30px;
+    }
+    .you-can-choose__box:before {
+        max-width: 297px;
+        top: -6px;
+    }
+    .you-can-choose__men{
+        display: none;
+    }
+    .upholstered-furniture__text p {
+        font-size: 16px;
+        line-height: 1.467;
+    }
+    .upholstered-furniture__text strong {
+        font-size: 16px;
+        line-height: 1.467;
+    }
+    .upholstered-furniture__text {
+        margin-left: 21px;
+        max-width: 390px;
+    }
+}
+
+
+
+
+
+@media (max-width: 992px){
+
+    .you-can-choose__title h2 {
+        font-size: 26px;
+    }
+    .you-can-choose__box {
+        padding: 20px 15px 20px;
+    }
+    .you-can-choose__title:after{
+        display: none;
+    }
+    .you-can-choose__box:before {
+        max-width: 207px;
+        top: -6px;
+    }
+    .you-can-choose__text p {
+        font-size: 15px;
+    }
+    .you-can-choose {
+        margin-top: 45px;
+    }
+    .upholstered-furniture {
+        margin: 40px 0 30px;
+        padding: 20px;
+        flex-direction: column;
+    }
+    .upholstered-furniture__img img {
+        width: 100%;
+    }
+    .upholstered-furniture__text {
+        margin-left: 0;
+        max-width: 540px;
+        margin-top: 29px;
+    }
+    .you-can-choose__img {
+        padding: 10px 15px 0 0;
+        max-width: 360px;
+    }
+}
+
+@media (max-width: 768px){
+    .you-can-choose__box:after,.you-can-choose__box:before{
+        display: none;
+    }
+    .you-can-choose__title h2 {
+        font-size: 20px;
+    }
+    .you-can-choose__info{
+        flex-direction: column;
+    }
+    .you-can-choose__item{
+        flex-direction: column-reverse;
+        margin-top: 0;
+
+    }
+    .you-can-choose__img:after,.you-can-choose__img:before{
+        display: none;
+    }
+
+}
+@media (max-width: 576px){
+    .you-can-choose__title h2 {
+        font-size: 18px;
+        text-align: center;
+        max-width: 100%;
+    }
+    .you-can-choose__box {
+        padding: 10px 0px 10px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15px;
+        text-align: center;
+    }
+    .you-can-choose__text {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .you-can-choose__text strong {
+        font-size: 16px;
+    }
+    .you-can-choose__text p {
+        text-align: center;
+    }
+    .upholstered-furniture {
+        margin: 30px 0 30px;
+        padding: 15px;
+        flex-direction: column;
+    }
+    .upholstered-furniture__text {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .upholstered-furniture__text p {
+        line-height: 1.367;
+        text-align: center;
+    }
+    .upholstered-furniture__text strong {
+        line-height: 1.367;
+        text-align: center;
+    }
+}
+
+

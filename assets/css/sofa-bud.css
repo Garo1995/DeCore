@@ -1,0 +1,504 @@
+.sofa-bud__main{
+    margin-top: 20px;
+}
+.sofa-bud__block>p {
+    font-size: 18px;
+    font-family: 'LATO-REGULAR';
+    color: rgb(85, 85, 85);
+    line-height: 1.2;
+    text-align: center;
+
+}
+.sofa-bud__info{
+    margin-top: 20px;
+    background-color: rgba(235, 235, 235,0.702);
+    width: 100%;
+    padding: 15px 15px 40px 15px;
+
+}
+.sofa-bud__item{
+    display: flex;
+}
+.sofa-bud__img{
+    background-color: rgb(235, 235, 235);
+    box-shadow: 5.5px 9.526px 21px 0px rgba(0, 0, 0, 0.48);
+    max-width: 554px;
+    width: 100%;
+    height: 380px;
+}
+.sofa-bud__img img{
+    height: 100%;
+
+}
+.sofa-bud__cnt{
+    max-width: 516px;
+    width: 100%;
+    margin-left: 30px;
+}
+.sofa-bud__cnt strong{
+    font-size: 24px;
+    font-family: 'Merriweather-bold';
+    color: rgb(85, 85, 85);
+    line-height: 1.2;
+    text-align: left;
+}
+.sofa-bud__main__name{
+    margin-top: 15px;
+
+}
+.sofa-bud__main__name ul li{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px dashed rgb(161, 161, 161);
+    padding: 8px 0 2px;
+    margin: 6px 0;
+}
+.sofa-bud__main__name ul li span{
+    font-family: 'LATO-MEDIUM';
+    font-size: 18px;
+    color: rgb(85, 85, 85);
+    line-height: 1.2;
+}
+.sofa-bud__main__name ul li p{
+    font-size: 18px;
+    font-family: 'LATO-REGULAR';
+    color: rgb(85, 85, 85);
+    line-height: 1.2;
+}
+
+.sofa-bud__content{
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+.sofa-bud__content strong{
+    font-size: 24px;
+    font-family: 'LATO-HEAVY';
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+}
+.sofa-bud__content p{
+    font-size: 20px;
+    font-family: 'LATO-HEAVY';
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+}
+.sofa-bud__main__price{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.sofa-bud__main__price span{
+    font-size: 24px;
+    font-family: 'LATO-HEAVY';
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.sofa-bud__order{
+    margin-top: 20px;
+}
+.sofa-bud__order a{
+    font-size: 24px;
+    font-family: 'Merriweather';
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    line-height: 1.2;
+    width: 194px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(252, 182, 80);
+    border-radius: 5px;
+    position: relative;
+}
+
+
+.sofa-bud__order a:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -1px;
+    width: 1px;
+    height: 16px;
+    background:  rgba(235, 235, 235,0.702);
+    transition: 0.3s;
+}
+.sofa-bud__order a:after {
+    content: url('../img/carz.png');
+    position: absolute;
+    top: 10px;
+    right: -10px;
+    width: 19px;
+    transition: 0.3s;
+}
+
+.sofa-bud__text{
+    margin: 30px auto 0;
+    border: 1px solid rgb(85, 85, 85);
+    border-radius: 2px;
+    background-color: rgba(241, 241, 241,0.3);
+    max-width: 752px;
+    width: 100%;
+    padding: 10px 15px;
+
+
+}
+.sofa-bud__text p {
+    font-size: 16px;
+    font-family: 'LATO-BOLD';
+    color: rgb(85, 85, 85);
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+.sofa-pictures__item{
+    margin-top: 35px;
+
+}
+.sofa-pictures__item h3{
+    font-size: 36px;
+    font-family: 'LATO-BOLD';
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+}
+.sofa-pictures__block{
+    margin: 20px -13px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.sofa-pictures__item__box{
+    width: 33.333333%;
+    padding: 13px;
+}
+.sofa-pictures__item__box a{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(235, 235, 235);
+    box-shadow: 5.5px 9.526px 21px 0px rgba(0, 0, 0, 0.48);
+}
+.sofa-pictures__item__box a img{
+    width: 100%;
+    height: 100%;
+}
+.watch-product-video{
+    width: 100%;
+    margin-top: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 60px 0 70px;
+}
+.watch-product-video h3{
+    font-size: 36px;
+    font-family: 'LATO-BOLD';
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+
+}
+.watch-product-video h3 span{
+    color: #FFFFFF;
+    margin-left: 15px;
+
+}
+
+.watch-product-video__fon{
+    margin: 30px auto 0;
+    background-color: rgb(194, 194, 194);
+    max-width: 750px;
+    width: 100%;
+    height: 371px;
+
+}
+.watch-product-video__img{
+    max-width: 750px;
+    width: 100%;
+    height: 361px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+.might-interested-marg{
+    margin-top: 55px;
+}
+.might-interested-other{
+    margin: 40px -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.might-interested__block{
+    width: 33.333333%;
+    padding: 15px;
+
+}
+.might-interested__box{
+    width: 100%;
+
+}
+.might-interested__img{
+    background-color: rgb(235, 235, 235);
+    box-shadow: 5.5px 9.526px 21px 0px rgba(0, 0, 0, 0.48);
+    width: 100%;
+    height: 251px;
+}
+.might-interested__img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.might-interested__price{
+    background-color: rgb(235, 235, 235);
+    padding: 7px 10px;
+    width: 170px;
+    margin: -30px auto 0;
+    z-index: 99;
+    position: relative;
+}
+.might-interested__price span{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+    display: block;
+    font-family: 'LATO-HEAVY';
+
+}
+.might-interested__href{
+    display: flex;
+    justify-content: center;
+}
+.might-interested__href a{
+    font-size: 24px;
+    font-family: "Merriweather";
+    color: rgb(17, 106, 165);
+    text-decoration: underline;
+    line-height: 1.4;
+    text-align: center;
+    margin: 15px 0 0;
+    width: 200px;
+
+}
+.might-interested__href a:hover{
+    text-decoration: unset;
+}
+
+
+@media (max-width: 1170px){
+    .sofa-bud__main__name ul li p {
+        font-size: 16px;
+    }
+    .sofa-bud__main__price span {
+        font-size: 22px;
+    }
+    .sofa-bud__order a {
+        font-size: 22px;
+    }
+    .sofa-pictures__item h3 {
+        font-size: 30px;
+    }
+    .watch-product-video h3 {
+        font-size: 30px;
+    }
+    .might-interested__href a {
+        font-size: 20px;
+    }
+    .sofa-pictures__block {
+        margin: 20px -8px;
+    }
+    .sofa-pictures__item__box {
+        padding: 8px;
+    }
+    .might-interested__block {
+        padding: 10px;
+    }
+    .might-interested-other {
+        margin: 30px -10px;
+    }
+}
+
+@media (max-width: 992px){
+    .sofa-bud__item{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sofa-bud__cnt {
+        margin-left: 0;
+        margin-top: 35px;
+    }
+    .sofa-pictures__item__box {
+        width: 50%;
+    }
+    .watch-product-video__fon {
+        margin: 20px auto 0;
+        max-width: 600px;
+        height: 301px;
+    }
+    .watch-product-video__img {
+        max-width: 100%;
+        height: 290px;
+    }
+    .watch-product-video {
+        margin-top: 60px;
+        padding: 50px 0 60px;
+    }
+    .sofa-pictures__item h3 {
+        font-size: 26px;
+    }
+    .might-interested__block {
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 768px){
+    .sofa-bud__order a {
+        font-size: 20px;
+        width: 170px;
+        height: 50px;
+    }
+    .sofa-bud__text {
+        margin: 25px auto 0;
+        padding: 10px 10px;
+    }
+    .watch-product-video__fon {
+        margin: 20px auto 0;
+        max-width: 450px;
+        height: 250px;
+    }
+    .watch-product-video__img {
+        height: 240px;
+    }
+    .watch-product-video h3 {
+        font-size: 24px;
+    }
+    .watch-product-video {
+        margin-top: 40px;
+        padding: 35px 0 40px;
+    }
+    .sofa-pictures__item h3 {
+        font-size: 24px;
+    }
+
+}
+
+
+@media (max-width: 768px){
+    .sofa-bud__img {
+        height: 250px;
+    }
+    .sofa-bud__info {
+        padding: 10px 10px 30px 10px;
+    }
+    .sofa-bud__cnt strong {
+        font-size: 19px;
+    }
+    .sofa-bud__main__name ul li {
+        padding: 5px 0 2px;
+        margin: 5px 0;
+    }
+    .sofa-bud__main__name ul li span {
+        font-size: 15px;
+    }
+    .sofa-bud__main__name ul li p {
+        font-size: 15px;
+        text-align: right;
+    }
+    .sofa-bud__main__price{
+        margin: 0 auto;
+    }
+    .sofa-bud__main__price span {
+        font-size: 18px;
+    }
+    .sofa-bud__order a {
+        font-size: 18px;
+        width: 160px;
+        margin: 0 auto;
+    }
+    .sofa-bud__text {
+        margin: 20px auto 0;
+        padding: 8px 8px;
+    }
+    .sofa-bud__text p {
+        font-size: 15px;
+        line-height: 1.45;
+    }
+}
+@media (max-width: 576px){
+    .sofa-bud__text {
+        margin: 20px auto 0;
+        padding: 8px 8px;
+    }
+    .sofa-bud__text p {
+        font-size: 15px;
+        line-height: 1.45;
+    }
+
+    .sofa-pictures__item__box {
+        width: 100%;
+    }
+    .watch-product-video {
+        margin-top: 30px;
+        padding: 25px 0 30px;
+    }
+    .watch-product-video h3 {
+        font-size: 16px;
+    }
+    .watch-product-video__fon {
+        margin: 20px auto 0;
+        max-width: 250px;
+        height: 195px;
+    }
+    .watch-product-video__img {
+        height: 185px;
+    }
+    .watch-product-video__img a{
+        width: 50px;
+    }
+    .might-interested-marg {
+        margin-top: 30px;
+    }
+    .sofa-pictures__item h3 {
+        font-size: 20px;
+    }
+    .might-interested__block {
+        width: 100%;
+    }
+    .might-interested__img {
+        height: 210px;
+    }
+    .might-interested__price span {
+        font-size: 18px;
+    }
+    .might-interested__price {
+        padding: 7px 6px;
+        margin: -20px auto 0;
+    }
+    .might-interested__href a {
+        font-size: 18px;
+        margin: 10px 0 0;
+
+    }
+    .watch-product-video h3 span {
+        margin-left: 3px;
+    }
+    .sofa-bud__img {
+        height: 220px;
+    }
+}

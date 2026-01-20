@@ -1,0 +1,304 @@
+#promotions-offers__fon {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.promotions-offers__main {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.promotions-offers__href ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.promotions-offers__href ul li {
+    font-size: 12px;
+    font-family: 'LATO-LIGHT';
+    color: rgb(21, 19, 20);
+    line-height: 1.2;
+    text-align: center;
+    padding: 0 8px;
+    position: relative;
+}
+
+.promotions-offers__href ul li a {
+    font-size: 12px;
+    font-family: 'LATO-LIGHT';
+    color: rgb(21, 19, 20);
+    text-decoration: underline;
+    line-height: 1.2;
+}
+
+.promotions-offers__href ul li a:hover {
+    text-decoration: unset;
+
+}
+
+.promotions-offers__href ul li + li:after {
+    content: "/";
+    position: absolute;
+    left: 0;
+}
+
+.promotions-offers__href h2 {
+    font-size: 36px;
+    font-family: 'LATO-HEAVY';
+    color: rgb(85, 85, 85);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.when-placing-site__block {
+    margin-top: 70px;
+}
+
+.when-placing-site__item {
+    display: flex;
+    align-items: flex-start;
+}
+
+.when-placing-site__data {
+    background: rgb(236, 236, 236);
+    padding: 4px 5px;
+    text-align: center;
+    width: 166px;
+}
+
+.when-placing-site__data span {
+    font-size: 20px;
+    font-family: 'Merriweather';
+    color: rgb(0, 0, 0);
+    line-height: 1.1;
+    text-align: center;
+
+}
+
+.when-placing-site__data strong {
+    font-size: 36px;
+    font-family: 'Merriweather';
+    color: rgb(149, 149, 149);
+    text-transform: uppercase;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.when-placing-site__text {
+    padding-left: 25px;
+    max-width: 935px;
+}
+
+.when-placing-site__text h3 {
+    font-size: 30px;
+    font-family: 'Merriweather-bold';
+    color: rgb(252, 182, 80);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.when-placing-site__text h3 strong {
+    color: rgb(0, 0, 0);
+}
+
+.when-placing-site__text p {
+    margin-top: 15px;
+}
+
+.when-placing-site__text p, .when-placing-site__text a {
+    font-size: 18px;
+    font-family: 'LATO-LIGHT';
+    color: rgb(85, 85, 85);
+    line-height: 1.567;
+    text-align: left;
+}
+
+.when-placing-site__text a {
+    color: rgb(0, 0, 0);
+    font-family: 'LATO-BOLD';
+
+}
+
+.when-placing-site__img {
+    margin-top: 35px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    box-shadow: 5.5px 9.526px 21px 0px rgba(0, 0, 0, 0.48);
+}
+
+
+
+
+.delivery-assembly{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.delivery-assembly:nth-child(even){
+    flex-direction: row-reverse;
+}
+.delivery-assembly .when-placing-site__text{
+    max-width: 560px;
+    width: 100%;
+    padding-bottom: 50px;
+    border-bottom: 1px solid  rgb(215, 215, 215);
+
+}
+.delivery-assembly .when-placing-site__text p + p{
+    margin-top: 30px;
+}
+.delivery-assembly:nth-child(even) .when-placing-site__text {
+    padding-left: 0;
+    padding-right: 25px;
+}
+.delivery-assembly .when-placing-site__img{
+    height: auto;
+    display: flex;
+    max-width: 564px;
+    margin-top: 0;
+}
+.delivery-assembly .when-placing-site__img img{
+    height: 100%;
+}
+
+.pages-about-title{
+    max-width: 100%;
+    padding: 0;
+    text-align: center;
+}
+.pages-about-title h3{
+    text-align: center;
+}
+.pages-about-title p {
+    text-align: center;
+}
+
+
+@media (max-width: 1300px) {
+    .promotions-offers__href h2 {
+        font-size: 30px;
+
+    }
+
+    .promotions-offers__main {
+        padding: 15px 0;
+    }
+
+    .when-placing-site__text h3 {
+        font-size: 28px;
+
+    }
+
+    .when-placing-site__text p, .when-placing-site__text a {
+        font-size: 17px;
+
+    }
+
+    .when-placing-site__text p {
+        margin-top: 10px;
+    }
+    .when-placing-site__img {
+        margin-top: 25px;
+        height: 430px;
+        background-position: bottom;
+    }
+    .when-placing-site__block {
+        margin-top: 40px;
+    }
+}
+@media (max-width: 1170px){
+    .delivery-assembly{
+        flex-direction: column-reverse;
+        margin-bottom: 30px;
+    }
+    .delivery-assembly:nth-child(even) {
+        flex-direction: column-reverse;
+    }
+    .delivery-assembly .when-placing-site__text {
+        max-width: 560px;
+        width: 100%;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgb(215, 215, 215);
+        margin-bottom: 30px;
+    }
+    .delivery-assembly .when-placing-site__text p + p {
+        margin-top: 15px;
+    }
+}
+@media (max-width: 992px){
+    .promotions-offers__href h2 {
+        font-size: 26px;
+    }
+    .when-placing-site__text h3 {
+        font-size: 22px;
+    }
+    .when-placing-site__text p, .when-placing-site__text a {
+        font-size: 16px;
+    }
+    .when-placing-site__text {
+        padding-left: 0;
+        margin-top: 15px;
+    }
+    .when-placing-site__item{
+        flex-direction: column;
+    }
+    .when-placing-site__img {
+        height: 350px;
+    }
+
+}
+
+@media (max-width: 768px){
+    .promotions-offers__href h2 {
+        font-size: 22px;
+    }
+    .when-placing-site__data strong {
+        font-size: 29px;
+    }
+    .when-placing-site__text h3 {
+        font-size: 20px;
+    }
+    .when-placing-site__text p, .when-placing-site__text a {
+        font-size: 15px;
+        line-height: 1.4;
+    }
+}
+
+@media (max-width: 576px){
+    .promotions-offers__href h2 {
+        font-size: 18px;
+    }
+    .when-placing-site__data strong {
+        font-size: 26px;
+    }
+    .when-placing-site__data span {
+        font-size: 18px;
+    }
+    .when-placing-site__text h3 {
+        font-size: 16px;
+    }
+    .when-placing-site__img {
+        height: 230px;
+    }
+    .when-placing-site__block {
+        margin-top: 30px;
+    }
+    .delivery-assembly .when-placing-site__img {
+        height: 230px;
+    }
+    .you-can-choose__title h2 {
+        font-size: 20px;
+    }
+
+}

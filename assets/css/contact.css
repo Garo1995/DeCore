@@ -1,0 +1,58 @@
+.pages-contact .contact-specialist__block{
+    height: auto;
+}
+.pages-contact .contact-specialist__inp {
+    max-width: 100%;
+}
+.always-glad-heat{
+    margin-top: 80px;
+}
+.always-glad-heat__fon{
+    background-color: rgba(235, 235, 235,0.702);
+    padding: 40px 40px 20px;
+}
+.always-glad-heat__fon h3{
+    font-size: 24px;
+    font-family: 'Merriweather-bold';
+    color: rgb(85, 85, 85);
+    line-height: 1.25;
+    text-align: center;
+
+}
+.always-glad-heat__fon p{
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'LATO-LIGHT';
+    color: rgb(85, 85, 85);
+    line-height: 1.657;
+    text-align: center;
+
+}
+.always-glad-heat .contact-specialist__main {
+    padding: 80px 70px;
+    margin: 0 0 50px;
+}
+
+
+@media (max-width: 768px){
+    .always-glad-heat {
+        margin-top: 40px;
+    }
+    .always-glad-heat__fon {
+        padding: 30px 20px 20px;
+    }
+    .always-glad-heat__fon h3 {
+        font-size: 20px;
+    }
+    .always-glad-heat__fon p {
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 1.457;
+    }
+}
+@media (max-width: 768px){
+    .always-glad-heat .contact-specialist__main {
+        padding: 30px 10px;
+        margin: 0 0 20px;
+    }
+}
